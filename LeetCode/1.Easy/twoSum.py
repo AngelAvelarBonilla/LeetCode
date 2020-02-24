@@ -1,7 +1,7 @@
 '''
 LeetCode
 Difficulty: Easy
-1. Two Sum
+1. Two Sum:
     Given an array of integers, return indices of the two numbers such that they add up to a specific target.
     You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -39,6 +39,7 @@ def main():
     target = 10
     print(twoSum(nums, target))
 
+
 def twoSum(nums: list, target: int) -> list:
     numsDict = {}
     for i in range(len(nums)):
@@ -46,5 +47,6 @@ def twoSum(nums: list, target: int) -> list:
     for i in range(len(nums)):
         if (target - nums[i] in numsDict and i != numsDict.get(target - nums[i])):
             return[i, numsDict.get(target - nums[i])]
+
 
 main()
