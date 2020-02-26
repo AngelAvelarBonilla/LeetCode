@@ -56,5 +56,4 @@ def numJewelsInStones(J: str, S: str) -> int:
 
     return sum(jewels.values())
 
-
 main()
