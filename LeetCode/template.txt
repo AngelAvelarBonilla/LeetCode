@@ -1,6 +1,6 @@
 '''
 LeetCode
-Difficulty
+Difficulty:
 Problem
 
 My Solution:
